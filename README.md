@@ -10,7 +10,8 @@ It contains no complete implementations and no proprietary details.
 
 In real-world operations — aviation, navigation, embedded systems, infrastructure —
 systems rarely fail all at once.
-They degrade.
+They degrade — and must remain usable across contexts and environments where initial
+assumptions no longer hold.
 
 Good systems acknowledge this reality:
 they expose uncertainty, reduce complexity under stress,
@@ -58,4 +59,5 @@ This repository is **not**:
 This repository is intentionally incomplete.
 Notes are added when they are considered stable enough to be shared.
 
-Progress is measured in clarity, not in commits.
+Progress is measured in clarity, not in commits.  
+Portability of ideas matters more than completeness.
