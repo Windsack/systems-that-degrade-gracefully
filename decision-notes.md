@@ -3,11 +3,11 @@
 This document collects selected decision notes that shape the thinking
 behind systems that are designed to degrade gracefully.
 
-It does not aim to be complete.
+It does not aim to be complete.  
 It aims to preserve context.
 
-The focus is not on *what* was built,
-but on *why* certain directions were chosen
+The focus is not on *what* was built,  
+but on *why* certain directions were chosen  
 and which trade-offs were accepted consciously.
 
 ---
@@ -18,11 +18,12 @@ Decision Notes capture decisions that influence system behaviour,
 interpretation, or trust under non-ideal conditions.
 
 They exist to answer future questions such as:
+
 - Why was this approach chosen?
 - Which alternatives were considered?
 - What risks or limitations were knowingly accepted?
 
-Not every decision deserves a note.
+Not every decision deserves a note.  
 Only those that affect system understanding at a higher level.
 
 ---
@@ -30,12 +31,14 @@ Only those that affect system understanding at a higher level.
 ## What belongs here — and what does not
 
 Decision Notes **belong here** when they:
+
 - express a deliberate design stance
 - influence behaviour under degraded conditions
 - constrain or shape future decisions
 - encode assumptions that might otherwise be forgotten
 
 Decision Notes **do not belong here** when they are:
+
 - implementation details
 - library or tooling choices
 - bug fixes or refactorings
@@ -47,7 +50,7 @@ Those belong in commits, code comments or issues.
 
 ## Structure of a Decision Note
 
-Each Decision Note follows a simple structure.
+Each Decision Note follows a simple structure.  
 Not all sections are mandatory.
 
 - **Context**  
@@ -190,7 +193,7 @@ Even in degraded modes, responsibility remains explicit
 and does not dissolve into the system.
 
 **Rationale**  
-Systems can degrade.
+Systems can degrade.  
 Responsibility cannot.
 
 Clear responsibility supports active problem-solving,
@@ -211,9 +214,10 @@ or to defer decisions to the system.
 
 ## Notes on evolution
 
-Decision Notes are added selectively and infrequently.
-If a decision does not influence system behaviour under degradation,
+Decision Notes are added selectively and infrequently.  
+If a decision does not influence system behaviour under degradation,  
 it likely does not belong here.
 
-This document evolves slowly by design.
+This document evolves slowly by design.  
 Progress is measured in clarity, not in volume.
+
