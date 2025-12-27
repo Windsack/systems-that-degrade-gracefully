@@ -1,7 +1,13 @@
 # Systems That Degrade Gracefully
 
+**© Matthias Baier — CC BY-NC 4.0**  
+Public notebook. Not a product. Not advice. Not for commercial use.  
+**Public by default, proprietary by choice.**
+
+---
+
 This repository is a public notebook about building systems that continue to work  
-when assumptions break, inputs degrade, or components fail — and where predictable behavior still matters.
+when assumptions break, inputs degrade, or components fail — and where predictable behaviour still matters.
 
 It is not a product repository.  
 It contains no complete implementations and no proprietary details.
@@ -59,10 +65,10 @@ This repository is **not**:
   Core ideas that guide system design under uncertainty.
 
 - `degraded-mode.md`  
-  Notes on degraded operation, fallback behavior, and graceful loss of capability.
+  Considerations for degraded operation, fallback behaviour, and graceful loss of capability.
 
 - `decision-notes.md`  
-  Short records of architectural or conceptual decisions and their rationale.
+  Selected architectural decisions, including context, rationale and trade-offs.
 
 *(Additional files may appear if they support clarity, not volume.)*
 
@@ -76,7 +82,17 @@ Notes are added when they are considered stable enough to be shared.
 Progress is measured in clarity, not in commits.  
 Portability of ideas matters more than completeness.
 
-**Public by default, proprietary by choice.**
+**Predictability in unpredictable environments.**
+
+---
+
+## License
+
+This work is licensed under **Creative Commons BY-NC 4.0**.  
+You may share and adapt this material with attribution, **but not for commercial use**.
+
+For details, see:  
+`LICENSE.md` or https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
 
@@ -86,3 +102,4 @@ For context — not support:
 
 - https://www.mbaier.com  
 - https://www.mb-sailing.com
+
