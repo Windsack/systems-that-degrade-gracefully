@@ -6,8 +6,7 @@ Public notebook. Not a product. Not advice. Not for commercial use.
 
 ---
 
-This repository is a public notebook about building systems that continue to work  
-when assumptions break, inputs degrade, or components fail — and where predictable behaviour still matters.
+This repository is a public notebook about building systems that continue to work when assumptions break, inputs degrade, or components fail — and where predictable behaviour still matters.
 
 It is not a product repository.  
 It contains no complete implementations and no proprietary details.
@@ -16,8 +15,7 @@ It contains no complete implementations and no proprietary details.
 
 ## Motivation
 
-In real-world operations — aviation, navigation, embedded systems, infrastructure —  
-systems rarely fail all at once. They degrade.
+In real-world operations — aviation, navigation, embedded systems, infrastructure — systems rarely fail all at once. They degrade.
 
 Good systems acknowledge this reality:  
 they expose uncertainty, reduce complexity under stress,  
@@ -76,11 +74,9 @@ This repository is **not**:
 
 ## Status
 
-This repository is intentionally incomplete.  
-Notes are added when they are considered stable enough to be shared.
+This repository is intentionally incomplete. Notes are added when they are considered stable enough to be shared.
 
-Progress is measured in clarity, not in commits.  
-Portability of ideas matters more than completeness.
+Progress is measured in clarity, not in commits. Portability of ideas matters more than completeness.
 
 **Predictability in unpredictable environments.**
 
